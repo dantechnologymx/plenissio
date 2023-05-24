@@ -1,0 +1,53 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 08/06/2016 05:15
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-alimentacion:before { content: "\f100"; }
+.flaticon-balanza-de-la-justicia:before { content: "\f101"; }
+.flaticon-chica-pateando-la-cara-de-un-chico:before { content: "\f102"; }
+.flaticon-grupo-de-personas:before { content: "\f103"; }
+.flaticon-huevos-en-una-canasta:before { content: "\f104"; }
+.flaticon-mano-de-nino-sobre-la-mano-de-un-adulto:before { content: "\f105"; }
+.flaticon-mobiliario-de-comedor-de-una-mesa-con-sillas:before { content: "\f106"; }
+    
+    $font-Flaticon-alimentacion: "\f100";
+    $font-Flaticon-balanza-de-la-justicia: "\f101";
+    $font-Flaticon-chica-pateando-la-cara-de-un-chico: "\f102";
+    $font-Flaticon-grupo-de-personas: "\f103";
+    $font-Flaticon-huevos-en-una-canasta: "\f104";
+    $font-Flaticon-mano-de-nino-sobre-la-mano-de-un-adulto: "\f105";
+    $font-Flaticon-mobiliario-de-comedor-de-una-mesa-con-sillas: "\f106";
